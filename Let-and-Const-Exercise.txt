@@ -1,0 +1,23 @@
+﻿Let and Const Exercise
+For: 
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+
+Do this instead: 
+const PI = 3.14; 
+
+
+Quiz: 
+
+
+* What is the difference between var and let?
+VAR is function scope and can be redeclared. 
+LET is block scope and cannot be redeclared.
+* What is the difference between var and const?
+VAR is function scope, can be redeclared, and can be reassigned. 
+CONST is block scope, cannot be redeclared, and cannot be reassigned.
+* What is the difference between let and const?
+LET can be reassigned; whereas CONST cannot be reassigned.
+* What is hoisting?
+Hoisting is when you declare a “VAR” variable and JS compiles the “VAR” variables first before running through the code in the linear fashion you expect.
